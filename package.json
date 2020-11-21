@@ -1,6 +1,6 @@
 {
   "name": "lts-utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "js 工具集",
   "main": "index.js",
   "scripts": {

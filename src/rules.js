@@ -23,7 +23,7 @@ export function limitMaxAmount(max, message) {
 export function limitLetterNumber(message) {
   const reg = /^[A-Za-z0-9]+$/;
   return function (rule, value, callback) {
-    if (!reg.test(value)) {
+    if (value && !reg.test(value)) {
       callback(message);
     } else {
       callback();
