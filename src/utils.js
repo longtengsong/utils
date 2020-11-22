@@ -27,3 +27,5 @@ export function amounToWords(amount) {
 export function formatToMicrometer(value) {
   return `¥ ${value}`.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
+
+export default { amounToWords, formatToMicrometer };
